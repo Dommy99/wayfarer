@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavComponent } from './nav/nav.component';
-import { HeroComponent } from './hero/hero.component';
-import { TopicComponent } from './topic/topic.component';
+import { CitiesModule } from './cities/cities.module';
+
 
 
 
@@ -14,14 +14,13 @@ import { TopicComponent } from './topic/topic.component';
   declarations: [
     AppComponent,
     NavComponent,
-    HeroComponent,
-    TopicComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    CommonModule
+    CommonModule,
+    CitiesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
