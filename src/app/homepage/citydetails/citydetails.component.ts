@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-city',
-  templateUrl: './city.component.html',
-  styleUrls: ['./city.component.css']
+  selector: 'app-citydetails',
+  templateUrl: './citydetails.component.html',
+  styleUrls: ['./citydetails.component.css']
 })
-export class CityComponent {
+export class CitydetailsComponent {
   cities = [
     {
       name: 'London',

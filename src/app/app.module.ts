@@ -10,10 +10,11 @@ import { HomepageModule } from './homepage/homepage.module';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

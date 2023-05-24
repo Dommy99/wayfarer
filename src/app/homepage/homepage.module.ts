@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { AllCitiesComponent } from './all-cities/all-cities.component';
 import { CityComponent } from './city/city.component';
 import { RouterModule } from '@angular/router';
+import { CitydetailsComponent } from './citydetails/citydetails.component';
 
 
 
 @NgModule({
   declarations: [
     AllCitiesComponent,
-    CityComponent
+    CityComponent,
+    CitydetailsComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { RouterModule } from '@angular/router';
   ],
   exports: [
     AllCitiesComponent,
-    CityComponent
+    CityComponent,
+    CitydetailsComponent
   ]
 })
 export class HomepageModule { }
