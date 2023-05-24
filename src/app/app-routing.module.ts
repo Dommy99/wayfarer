@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HeroComponent } from './cities/hero/hero.component';
+import { AllCitiesComponent } from './homepage/all-cities/all-cities.component';
 
 const routes: Routes = [
   {
@@ -11,10 +12,10 @@ const routes: Routes = [
     path: '',
     component: HeroComponent
   },
-  // {
-  //   path: 'hompage',
-  //   component: HeroComponent
-  // }
+  {
+    path: 'homepage',
+    component: AllCitiesComponent
+  }
 ];
 
 @NgModule({

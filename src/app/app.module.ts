@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavComponent } from './nav/nav.component';
 import { CitiesModule } from './cities/cities.module';
-
+import { HomepageModule } from './homepage/homepage.module';
 
 
 
@@ -20,7 +20,8 @@ import { CitiesModule } from './cities/cities.module';
     AppRoutingModule,
     NgbModule,
     CommonModule,
-    CitiesModule
+    CitiesModule,
+    HomepageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
