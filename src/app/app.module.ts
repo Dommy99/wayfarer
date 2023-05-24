@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavComponent } from './nav/nav.component';
 import { HeroComponent } from './hero/hero.component';
+import { TopicComponent } from './topic/topic.component';
 
 
 
@@ -13,7 +14,8 @@ import { HeroComponent } from './hero/hero.component';
   declarations: [
     AppComponent,
     NavComponent,
-    HeroComponent
+    HeroComponent,
+    TopicComponent
   ],
   imports: [
     BrowserModule,
