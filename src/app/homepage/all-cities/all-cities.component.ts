@@ -10,22 +10,22 @@ export class AllCitiesComponent {
     {
       name: 'London',
       country: 'United Kingdom',
-      img: '../../assets/images/london.jpg'
+      img: '../../../assets/images/london.jpg'
     },
     {
       name: 'San Francisco',
       country: 'United States',
-      img: '../../assets/images/sanfran.jpg'
+      img: '../../../assets/images/sanfran.jpg'
     },
     {
       name: 'Sydney',
       country: 'Australia',
-      img: '../../assets/images/sydney.jpg'
+      img: '../../../assets/images/sydney.jpg'
     },
     {
       name: 'Gibraltar',
       country: 'United Kingdom',
-      img: '../../assets/images/cities/gibraltar.jpg'
+      img: '../../../assets/images/gibraltar.jpg'
     }
   ]
 }
