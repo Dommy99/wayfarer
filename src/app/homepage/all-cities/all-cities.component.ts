@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-all-cities',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./all-cities.component.css']
 })
 export class AllCitiesComponent {
-  
+
 }

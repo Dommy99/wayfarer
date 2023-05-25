@@ -13,7 +13,7 @@ const routes: Routes = [
     component: HeroComponent
   },
   {
-    path: 'cities/:id',
+    path: 'cities',
     component: AllCitiesComponent
   }
 ];
