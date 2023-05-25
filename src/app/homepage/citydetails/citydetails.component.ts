@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Subject } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
 import cityData from '../../../assets/cityData.json';
 
 interface City {
+  id: string;
   name: string;
   country: string;
   img: string;
@@ -12,22 +13,22 @@ interface City {
 interface CityData {
   cities: City[];
 }
+
 @Component({
   selector: 'app-citydetails',
   templateUrl: './citydetails.component.html',
   styleUrls: ['./citydetails.component.css']
 })
 export class CitydetailsComponent implements OnInit {
-  cityTitle: string = '';
-  cityCountry: string = '';
-  cityImg: string = '';
-  posts: Array<string> = [];
-  searchSubject = new Subject();
-  cities: any = cityData;
+  cities: CityData = cityData;
+  city?: City;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-   
-}
+    this.route.params.subscribe(params => {
+      const cityId = params['id']; 
+      this.city = this.cities.cities.find(city => city.id === cityId); // find city by id
+    });
+  }
 }

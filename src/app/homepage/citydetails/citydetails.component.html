@@ -1,8 +1,11 @@
 
-<section>
-    <div *ngFor="let city of cities.cities" >
-        <h2>{{city.name}}</h2>
-        <p>{{city.country}}</p>
-        <img src="{{city.img}}" width="100px"/>
+<div *ngIf="city">
+    <h2>{{city.name}}</h2>
+    <p>{{city.country}}</p>
+    <img src="{{city.img}}" width="100px"/>
+    <div *ngFor="let post of city.posts">
+      <h3>{{post.title}}</h3>
+      <p>{{post.content}}</p>
     </div>
-</section>
+</div>
+
