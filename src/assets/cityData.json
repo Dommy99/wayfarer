@@ -1,0 +1,64 @@
+{
+    "cities": [
+        {
+          "name": "London",
+          "country": "United Kingdom",
+          "img": "../../../assets/images/london.jpg",
+          "posts": [
+            {
+                "title": "Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            },
+            {
+                "title": "Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            }
+          ]
+        },
+        {
+          "name": "San Francisco",
+          "country": "United States",
+          "img": "../../../assets/images/sanfran.jpg",
+          "posts": [
+            {
+                "title": "Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            },
+            {
+                "title": "Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            }
+          ]
+        },
+        {
+          "name": "Sydney",
+          "country": "Australia",
+          "img": "../../../assets/images/sydney.jpg",
+          "posts": [
+            {
+                "title": "Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            },
+            {
+                "title": "Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            }
+          ]
+        },
+        {
+          "name": "Gibraltar",
+          "country": "United Kingdom",
+          "img": "../../../assets/images/gibraltar.jpg",
+          "posts": [
+            {
+                "title": "Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            },
+            {
+                "title": "Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            }
+          ]
+        }
+      ]
+}
