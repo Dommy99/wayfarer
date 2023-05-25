@@ -4,8 +4,10 @@
     <p>{{city.country}}</p>
     <img src="{{city.img}}" width="100px"/>
     <div *ngFor="let post of city.posts">
-      <h3>{{post.title}}</h3>
-      <p>{{post.content}}</p>
+      <a routerLink="/cities/{{city.id}}/posts/{{post.id}}">
+        <h3>{{post.title}}</h3>
+        <p>{{post.content}}</p>
+      </a>
     </div>
 </div>
 

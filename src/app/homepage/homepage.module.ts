@@ -4,6 +4,7 @@ import { AllCitiesComponent } from './all-cities/all-cities.component';
 import { CityComponent } from './city/city.component';
 import { RouterModule } from '@angular/router';
 import { CitydetailsComponent } from './citydetails/citydetails.component';
+import { PostsComponent } from './posts/posts.component';
 
 
 
@@ -11,7 +12,8 @@ import { CitydetailsComponent } from './citydetails/citydetails.component';
   declarations: [
     AllCitiesComponent,
     CityComponent,
-    CitydetailsComponent
+    CitydetailsComponent,
+    PostsComponent
   ],
   imports: [
     CommonModule,

@@ -7,12 +7,13 @@
           "img": "../../../assets/images/london.jpg",
           "posts": [
             {
-                "id": 1,              
-                "title": "Best Places to Eat",
+                "id": "1",              
+                "title": "1Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
             },
             {
-                "title": "Best Places to Eat",
+                "id": "2",
+                "title": "2Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
             }
           ]
@@ -24,10 +25,12 @@
           "img": "../../../assets/images/sanfran.jpg",
           "posts": [
             {
+                "id": "1",
                 "title": "Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
             },
             {
+                "id": "2",
                 "title": "Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
             }
@@ -40,10 +43,12 @@
           "img": "../../../assets/images/sydney.jpg",
           "posts": [
             {
+                "id": "1",
                 "title": "Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
             },
             {
+                "id": "2",
                 "title": "Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
             }
@@ -56,10 +61,12 @@
           "img": "../../../assets/images/gibraltar.jpg",
           "posts": [
             {
+                "id": "1",
                 "title": "Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
             },
             {
+                "id": "2",
                 "title": "Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
             }

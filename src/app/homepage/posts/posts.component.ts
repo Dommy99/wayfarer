@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import {ActivatedRoute } from '@angular/router';
 import cityData from '../../../assets/cityData.json';
 
 interface City {
@@ -15,20 +15,20 @@ interface CityData {
 }
 
 @Component({
-  selector: 'app-citydetails',
-  templateUrl: './citydetails.component.html',
-  styleUrls: ['./citydetails.component.css']
+  selector: 'app-posts',
+  templateUrl: './posts.component.html',
+  styleUrls: ['./posts.component.css']
 })
-export class CitydetailsComponent implements OnInit {
+export class PostsComponent implements OnInit {
   cities: CityData = cityData;
-  city?: City;
+  post?: City;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      const cityId = params['id']; 
-      this.city = this.cities.cities.find(city => city.id === cityId); // find city by id
+      const postId = params['id']; 
+      this.post = this.cities.cities.find(post => post.id === postId); // find posts by id
     });
   }
 }
