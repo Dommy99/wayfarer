@@ -1,13 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import cityData from '../../../assets/cityData.json';
+
+interface Post {
+  id: string;
+  title: string;
+  content: string;
+}
 
 interface City {
   id: string;
   name: string;
   country: string;
   img: string;
-  posts: { id: string; title: string; content: string }[];
+  posts: Post[];
 }
 
 interface CityData {
@@ -21,14 +27,18 @@ interface CityData {
 })
 export class PostsComponent implements OnInit {
   cities: CityData = cityData;
-  post?: City;
+  post?: Post;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      const postId = params['id']; 
-      this.post = this.cities.cities.find(post => post.id === postId); // find posts by id
+      const cityId = params['id'];
+      const postId = params['postId'];
+      const city = this.cities.cities.find(city => city.id === cityId);
+      if (city) {
+        this.post = city.posts.find(post => post.id === postId);
+      }
     });
   }
 }
