@@ -1,31 +1,35 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http'; 
+import { CitydataService } from '../citydata.service';
+import { Subject } from 'rxjs';
+import cityData from '../../../assets/cityData.json';
 
+interface City {
+  name: string;
+  country: string;
+  img: string;
+  posts: { title: string; content: string }[];
+}
+
+interface CityData {
+  cities: City[];
+}
 @Component({
   selector: 'app-citydetails',
   templateUrl: './citydetails.component.html',
   styleUrls: ['./citydetails.component.css']
 })
-export class CitydetailsComponent {
-  cities = [
-    {
-      name: 'London',
-      country: 'United Kingdom',
-      img: '../../../assets/images/london.jpg'
-    },
-    {
-      name: 'San Francisco',
-      country: 'United States',
-      img: '../../../assets/images/sanfran.jpg'
-    },
-    {
-      name: 'Sydney',
-      country: 'Australia',
-      img: '../../../assets/images/sydney.jpg'
-    },
-    {
-      name: 'Gibraltar',
-      country: 'United Kingdom',
-      img: '../../../assets/images/gibraltar.jpg'
-    }
-  ];
+export class CitydetailsComponent implements OnInit {
+  cityTitle: string = '';
+  cityCountry: string = '';
+  cityImg: string = '';
+  posts: Array<string> = [];
+  searchSubject = new Subject();
+  cities: any = cityData;
+
+  constructor() { }
+
+  ngOnInit(): void {
+   
+  }
 }

@@ -2,7 +2,20 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http'; 
 import { CitydataService } from '../citydata.service';
 import { Subject } from 'rxjs';
+import * as cityData from '../../../assets/cityData.json';
 
+console.log(cityData);
+
+interface City {
+  name: string;
+  country: string;
+  img: string;
+  posts: { title: string; content: string }[];
+}
+
+interface CityData {
+  cities: City[];
+}
 @Component({
   selector: 'app-city',
   templateUrl: './city.component.html',
@@ -14,14 +27,10 @@ export class CityComponent implements OnInit {
   cityImg: string = '';
   posts: Array<string> = [];
   searchSubject = new Subject();
-  cities: any[] = [];
+  cities: any = cityData;
 
-  constructor(private citydata: CitydataService, private http: HttpClient) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.http.get('../../assets/cityData.json').subscribe(data => {
-      this.cities = data[cities];
-      // Now this.cities will have the data from your JSON file
-    });
   }
 }

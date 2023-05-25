@@ -6,6 +6,7 @@
           "img": "../../../assets/images/london.jpg",
           "posts": [
             {
+                "id": 1,              
                 "title": "Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
             },
