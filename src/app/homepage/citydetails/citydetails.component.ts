@@ -28,7 +28,6 @@ export class CitydetailsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-   this.cities
    
-  }
+}
 }

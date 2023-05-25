@@ -1,6 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http'; 
-import { CitydataService } from '../citydata.service';
 import { Subject } from 'rxjs';
 import * as cityData from '../../../assets/cityData.json';
 
@@ -28,7 +26,6 @@ export class CityComponent implements OnInit {
   posts: Array<string> = [];
   searchSubject = new Subject();
   cities: any = cityData;
-  @Input() cityNum!: number;
 
   constructor() { }
 

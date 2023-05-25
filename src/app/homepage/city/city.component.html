@@ -1,6 +1,6 @@
 <ul>
     <div *ngFor="let city of cities.cities" class="card mb-3" style="max-width: 540px;">
-    <a routerLink="/{{cityNum}}">
+    <a routerLink="/cities/{{city.id}}">
     <div class="row g-0">
         <div class="col-md-4">
         <img src="{{city.img}}" class="img-fluid rounded-start" alt="city of {{city.name}}">
