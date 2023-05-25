@@ -5,7 +5,7 @@ import { AllCitiesComponent } from './homepage/all-cities/all-cities.component';
 
 const routes: Routes = [
   {
-    path: 'cities',
+    path: 'homepage',
     component: HeroComponent
   },
   {
@@ -13,7 +13,7 @@ const routes: Routes = [
     component: HeroComponent
   },
   {
-    path: 'homepage',
+    path: 'cities/:id',
     component: AllCitiesComponent
   }
 ];

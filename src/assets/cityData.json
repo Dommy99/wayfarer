@@ -1,6 +1,7 @@
 {
     "cities": [
         {
+          "id": "1",
           "name": "London",
           "country": "United Kingdom",
           "img": "../../../assets/images/london.jpg",
@@ -17,6 +18,7 @@
           ]
         },
         {
+          "id": "2",
           "name": "San Francisco",
           "country": "United States",
           "img": "../../../assets/images/sanfran.jpg",
@@ -32,6 +34,7 @@
           ]
         },
         {
+          "id": "3",
           "name": "Sydney",
           "country": "Australia",
           "img": "../../../assets/images/sydney.jpg",
@@ -47,6 +50,7 @@
           ]
         },
         {
+          "id": "4",
           "name": "Gibraltar",
           "country": "United Kingdom",
           "img": "../../../assets/images/gibraltar.jpg",

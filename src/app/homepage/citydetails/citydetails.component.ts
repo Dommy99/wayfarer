@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http'; 
-import { CitydataService } from '../citydata.service';
 import { Subject } from 'rxjs';
 import cityData from '../../../assets/cityData.json';
 
