@@ -9,12 +9,14 @@
             {
                 "id": "1",              
                 "title": "1Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "author": "Rachel Ehrlich"
             },
             {
                 "id": "2",
                 "title": "2Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "author": "Kevin B"
             }
           ]
         },
@@ -26,13 +28,15 @@
           "posts": [
             {
                 "id": "1",
-                "title": "Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                "title": "3Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "author": "Kim N"
             },
             {
                 "id": "2",
-                "title": "Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                "title": "4Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "author": "Jeff O"
             }
           ]
         },
@@ -44,13 +48,15 @@
           "posts": [
             {
                 "id": "1",
-                "title": "Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                "title": "5Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "author": "Jane Smith"
             },
             {
                 "id": "2",
-                "title": "Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                "title": "6Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "author": "Dom Akers"
             }
           ]
         },
@@ -62,13 +68,15 @@
           "posts": [
             {
                 "id": "1",
-                "title": "Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                "title": "7Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "author": "John Doe"
             },
             {
                 "id": "2",
-                "title": "Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                "title": "8Best Places to Eat",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "author": "Jane Jones"
             }
           ]
         }
