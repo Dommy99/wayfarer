@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavComponent } from './nav/nav.component';
 import { CitiesModule } from './cities/cities.module';
 import { HomepageModule } from './homepage/homepage.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -22,7 +23,8 @@ import { HomepageModule } from './homepage/homepage.module';
     NgbModule,
     CommonModule,
     CitiesModule,
-    HomepageModule
+    HomepageModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

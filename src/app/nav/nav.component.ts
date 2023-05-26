@@ -1,12 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 import { Subject } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
 import cityData from '../../assets/cityData.json';
 
+interface Post {
+  id: string;
+  title: string;
+  content: string;
+  author: string;
+}
+
 interface City {
+  id: string;
   name: string;
   country: string;
   img: string;
-  posts: { title: string; content: string }[];
+  posts: Post[];
 }
 
 interface CityData {
@@ -19,16 +28,21 @@ interface CityData {
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  cityTitle: string = '';
-  cityCountry: string = '';
-  cityImg: string = '';
-  posts: Array<string> = [];
+  cities: CityData = cityData;
+  post?: Post;
+  searchInput: string = '';
   searchSubject = new Subject();
-  cities: any = cityData;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-   
+    this.route.params.subscribe(params => {
+      const cityId = params['id'];
+      const postId = params['postId'];
+      const city = this.cities.cities.find(city => city.id === cityId);
+      if (city) {
+        this.post = city.posts.find(post => post.id === postId);
+      }
+    });
   }
 }
