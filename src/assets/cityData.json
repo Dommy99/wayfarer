@@ -17,7 +17,13 @@
                 "title": "2Best Places to Eat",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
                 "author": "Kevin B"
-            }
+            },
+            {
+              "id": "3",
+              "title": "",
+              "content": "",
+              "author": "Krisp P Bacon"
+          }
           ]
         },
         {

@@ -9,6 +9,8 @@
 </div>
   </div>
   <div *ngFor="let post of city.posts">
+    <!-- Validations -->
+    <div *ngIf="post.title !=='' && post.title.length < 200 && post.content !==''"> 
     <div id="postcard" class="card mb-3 --bs-light-border-subtle" style="max-width: 540px;">
       <div class="row g-0">
         <div class="col-md-4">
@@ -25,4 +27,6 @@
       </div>
     </div>
   </div>
+  </div>
+
 </div>
