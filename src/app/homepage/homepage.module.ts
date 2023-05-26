@@ -5,7 +5,7 @@ import { CityComponent } from './city/city.component';
 import { RouterModule } from '@angular/router';
 import { CitydetailsComponent } from './citydetails/citydetails.component';
 import { PostsComponent } from './posts/posts.component';
-
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,12 +17,14 @@ import { PostsComponent } from './posts/posts.component';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   exports: [
     AllCitiesComponent,
     CityComponent,
-    CitydetailsComponent
+    CitydetailsComponent,
+    PostsComponent
   ]
 })
 export class HomepageModule { }

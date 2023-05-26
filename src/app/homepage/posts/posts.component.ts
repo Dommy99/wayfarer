@@ -29,6 +29,9 @@ interface CityData {
 export class PostsComponent implements OnInit {
   cities: CityData = cityData;
   post?: Post;
+  allPosts: Post[] = [];
+  filteredPosts: Post[] = [];
+  searchTerm: string = '';
 
   constructor(private route: ActivatedRoute) { }
 
@@ -40,6 +43,23 @@ export class PostsComponent implements OnInit {
       if (city) {
         this.post = city.posts.find(post => post.id === postId);
       }
+
+      this.allPosts = this.cities.cities.reduce((prev, curr) => {
+        return prev.concat(curr.posts);
+      }, [] as Post[]);
+
+      this.filteredPosts = [...this.allPosts];
     });
+  }
+
+  filterPosts(): void {
+    if (!this.searchTerm) {
+      this.filteredPosts = [...this.allPosts];
+      return;
+    }
+
+    this.filteredPosts = this.allPosts.filter(post =>
+      post.title.toLowerCase().includes(this.searchTerm.toLowerCase())
+    );
   }
 }
