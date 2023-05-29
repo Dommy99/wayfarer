@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { CitiesModule } from './cities/cities.module';
 import { HomepageModule } from './homepage/homepage.module';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -24,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     CitiesModule,
     HomepageModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

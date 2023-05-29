@@ -22,7 +22,6 @@ interface CityData {
 export class CitydetailsComponent implements OnInit {
   cities: CityData = cityData;
   city?: City;
-  searchInput: string = '';
 
   constructor(private route: ActivatedRoute) { }
 
