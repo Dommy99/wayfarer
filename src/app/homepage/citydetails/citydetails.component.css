@@ -1,4 +1,17 @@
+#postcardcontainer {
+    padding-left: 20%;
+}
+
 #postcard {
     border-width: 3px;
     margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #0D1B2A;
+}
+
+#citycontent {
+    color: white;
 }

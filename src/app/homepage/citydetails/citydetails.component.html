@@ -1,25 +1,22 @@
 <div *ngIf="city">
   <div class="d-flex ">
     <div id="left-container" class="container-sm">
-  <h2>{{city.name}}</h2>
-  <p>{{city.country}}</p>
+  <h2 id="citycontent">{{city.name}}</h2>
+  <p id="citycontent">{{city.country}}</p>
   <div *ngIf="currentTemp && currentWeatherDescription">
-    <p>Current Temperature: {{ currentTemp }} </p>
-    <p>Weather Description: {{ currentWeatherDescription }}</p>
+    <p id="citycontent">Current Temperature: {{ currentTemp }} </p>
+    <p id="citycontent">Weather Description: {{ currentWeatherDescription }}</p>
   </div>
   </div>
   <div id="right-container" class="container-md ">
-  <img src="{{city.img}}" width="150px" />
+  <img src="{{city.img}}" width="250px" />
 </div>
   </div>
   <div *ngFor="let post of city.posts">
     <!-- Validations -->
-    <div *ngIf="post.title !=='' && post.title.length < 200 && post.content !==''"> 
+    <div *ngIf="post.title !=='' && post.title.length < 200 && post.content !==''" id="postcardcontainer"> 
     <div id="postcard" class="card mb-3 --bs-light-border-subtle" style="max-width: 540px;">
       <div class="row g-0">
-        <div class="col-md-4">
-          <img src="..." class="img-fluid rounded-start" alt="...">
-        </div>
         <div class="col-md-8">
           <div class="card-body">
             <a routerLink="/cities/{{city.id}}/posts/{{post.id}}">
