@@ -4,6 +4,7 @@
           "id": "1",
           "name": "London",
           "country": "United Kingdom",
+          "countryCode": "GB",
           "img": "../../../assets/images/london.jpg",
           "posts": [
             {
@@ -30,6 +31,7 @@
           "id": "2",
           "name": "San Francisco",
           "country": "United States",
+          "countryCode": "US",
           "img": "../../../assets/images/sanfran.jpg",
           "posts": [
             {
@@ -50,6 +52,7 @@
           "id": "3",
           "name": "Sydney",
           "country": "Australia",
+          "countryCode": "AU",
           "img": "../../../assets/images/sydney.jpg",
           "posts": [
             {
@@ -70,6 +73,7 @@
           "id": "4",
           "name": "Gibraltar",
           "country": "United Kingdom",
+          "countryCode": "GB",
           "img": "../../../assets/images/gibraltar.jpg",
           "posts": [
             {
