@@ -9,14 +9,14 @@
           "posts": [
             {
                 "id": "1",              
-                "title": "1Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "title": "Best Places to Eat: First Visit",
+                "content": "Durak Tantuni, Bake Street, Singburi, Xi'an Impression London, and Westerns Laundry. All known for their own unique offerings that London has to offer.",
                 "author": "Rachel Ehrlich"
             },
             {
                 "id": "2",
-                "title": "2Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "title": "Top Sights: Museum Lovers",
+                "content": "The V&A, Natural History Museu, Museum of London. These top 3 museums offer the best architecture and history.",
                 "author": "Kevin B"
             },
             {
@@ -36,14 +36,14 @@
           "posts": [
             {
                 "id": "1",
-                "title": "3Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "title": "Enjoing the Golden Gate Bridge",
+                "content": "There are several places within the city where you can view the amazing bridge. From a cruise around the bay to Fort Point Historic Site; all are Instagram-able moments.",
                 "author": "Kim N"
             },
             {
                 "id": "2",
-                "title": "4Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "title": "Interesting Facts About San Francisco",
+                "content": "Did you know? The city constructed the Golden Gate Bridge and the Oakland Bay Bridge during the Depression?",
                 "author": "Jeff O"
             }
           ]
@@ -57,14 +57,14 @@
           "posts": [
             {
                 "id": "1",
-                "title": "5Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "title": "Best Times to Visit Syndey",
+                "content": "December to February: These are the summer months in Sydney and the best time to enjoy Sydney's outdoor lifestyle.",
                 "author": "Jane Smith"
             },
             {
                 "id": "2",
-                "title": "6Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "title": "Sydney Opera House",
+                "content": "Not only is it one of Sydney's top tourist attractions, but it's also considered one of the most famous and distinctive buildings of the 20th century.",
                 "author": "Dom Akers"
             }
           ]
@@ -78,14 +78,14 @@
           "posts": [
             {
                 "id": "1",
-                "title": "7Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "title": "Small Territory, Big Views",
+                "content": "Although small, there is so much to do and discover here. It is known for its diverse population in one of the smallest territories.",
                 "author": "John Doe"
             },
             {
                 "id": "2",
-                "title": "8Best Places to Eat",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+                "title": "Tunnels Galore",
+                "content": "Built as massive fortresses during WWII, This is easily the most impressive attraction of dark-tourism relevance in Gibraltar!",
                 "author": "Jane Jones"
             }
           ]
