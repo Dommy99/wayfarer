@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { CitydetailsComponent } from './citydetails/citydetails.component';
 import { PostsComponent } from './posts/posts.component';
 import { FormsModule } from '@angular/forms';
-import { SearchComponent } from './search/search.component';
+
 
 
 @NgModule({
@@ -15,7 +15,7 @@ import { SearchComponent } from './search/search.component';
     CityComponent,
     CitydetailsComponent,
     PostsComponent,
-    SearchComponent
+
   ],
   imports: [
     CommonModule,
@@ -27,7 +27,7 @@ import { SearchComponent } from './search/search.component';
     CityComponent,
     CitydetailsComponent,
     PostsComponent,
-    SearchComponent
+    
   ]
 })
 export class HomepageModule { }
