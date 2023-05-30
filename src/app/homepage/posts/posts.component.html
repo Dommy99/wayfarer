@@ -9,7 +9,7 @@
 
 <section id="right-container" class="container-md">
   <input type="text" [(ngModel)]="searchTerm" (input)="filterPosts()" placeholder="Search posts...">
-  <h2 id="view">All Site Posts</h2>
+  <h2 id="view">All Posts</h2>
   <div *ngFor="let post of filteredPosts">
     <!-- Validations -->
     <div *ngIf="post.title !=='' && post.title.length < 200 && post.content !==''"> 
